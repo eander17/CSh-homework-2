@@ -1,0 +1,10 @@
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\bin\Debug\AndersonE_Assignment2.exe.config
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\bin\Debug\AndersonE_Assignment2.exe
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\bin\Debug\AndersonE_Assignment2.pdb
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\obj\Debug\AndersonE_Assignment2.csproj.AssemblyReference.cache
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\obj\Debug\AndersonE_Assignment2.Form1.resources
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\obj\Debug\AndersonE_Assignment2.Properties.Resources.resources
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\obj\Debug\AndersonE_Assignment2.csproj.GenerateResource.cache
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\obj\Debug\AndersonE_Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\obj\Debug\AndersonE_Assignment2.exe
+C:\Users\evana\OneDrive - University of Colorado Colorado Springs\School\C# Programming\Homework\AndersonE_Assignment2\obj\Debug\AndersonE_Assignment2.pdb
