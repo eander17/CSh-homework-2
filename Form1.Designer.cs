@@ -78,15 +78,15 @@ namespace AndersonE_Assignment2
             this.rad_LWeight = new System.Windows.Forms.RadioButton();
             this.Cmb_Mfr = new System.Windows.Forms.ComboBox();
             this.lbl_Mfr = new System.Windows.Forms.Label();
-            this.form1BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cmb_Type = new System.Windows.Forms.ComboBox();
             this.lbl_Type = new System.Windows.Forms.Label();
             this.lbl_Min = new System.Windows.Forms.Label();
             this.lbl_Max = new System.Windows.Forms.Label();
             this.txt_Min = new System.Windows.Forms.TextBox();
             this.txt_Max = new System.Windows.Forms.TextBox();
+            this.form1BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Grid_Cereals)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
@@ -236,9 +236,10 @@ namespace AndersonE_Assignment2
             // 
             // lbl_Title
             // 
+            this.lbl_Title.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbl_Title.AutoSize = true;
             this.lbl_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Title.Location = new System.Drawing.Point(464, 9);
+            this.lbl_Title.Location = new System.Drawing.Point(547, 9);
             this.lbl_Title.Name = "lbl_Title";
             this.lbl_Title.Size = new System.Drawing.Size(174, 31);
             this.lbl_Title.TabIndex = 1;
@@ -246,6 +247,7 @@ namespace AndersonE_Assignment2
             // 
             // btn_sirl
             // 
+            this.btn_sirl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_sirl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sirl.Location = new System.Drawing.Point(1237, 495);
             this.btn_sirl.Name = "btn_sirl";
@@ -257,6 +259,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LCal
             // 
+            this.rad_LCal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LCal.AutoSize = true;
             this.rad_LCal.Location = new System.Drawing.Point(161, 475);
             this.rad_LCal.Name = "rad_LCal";
@@ -269,6 +272,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_gCal
             // 
+            this.rad_gCal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_gCal.AutoSize = true;
             this.rad_gCal.Location = new System.Drawing.Point(47, 475);
             this.rad_gCal.Name = "rad_gCal";
@@ -281,6 +285,7 @@ namespace AndersonE_Assignment2
             // 
             // btn_Reset
             // 
+            this.btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Reset.Location = new System.Drawing.Point(1237, 593);
             this.btn_Reset.Name = "btn_Reset";
@@ -292,6 +297,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GProtein
             // 
+            this.rad_GProtein.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GProtein.AutoSize = true;
             this.rad_GProtein.Location = new System.Drawing.Point(47, 521);
             this.rad_GProtein.Name = "rad_GProtein";
@@ -304,6 +310,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GFat
             // 
+            this.rad_GFat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GFat.AutoSize = true;
             this.rad_GFat.Location = new System.Drawing.Point(47, 566);
             this.rad_GFat.Name = "rad_GFat";
@@ -316,6 +323,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GSodium
             // 
+            this.rad_GSodium.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GSodium.AutoSize = true;
             this.rad_GSodium.Location = new System.Drawing.Point(47, 604);
             this.rad_GSodium.Name = "rad_GSodium";
@@ -328,6 +336,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LFat
             // 
+            this.rad_LFat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LFat.AutoSize = true;
             this.rad_LFat.Location = new System.Drawing.Point(161, 566);
             this.rad_LFat.Name = "rad_LFat";
@@ -340,6 +349,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LProtein
             // 
+            this.rad_LProtein.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LProtein.AutoSize = true;
             this.rad_LProtein.Location = new System.Drawing.Point(161, 521);
             this.rad_LProtein.Name = "rad_LProtein";
@@ -352,6 +362,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LSodium
             // 
+            this.rad_LSodium.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LSodium.AutoSize = true;
             this.rad_LSodium.Location = new System.Drawing.Point(161, 604);
             this.rad_LSodium.Name = "rad_LSodium";
@@ -364,6 +375,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GPotass
             // 
+            this.rad_GPotass.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GPotass.AutoSize = true;
             this.rad_GPotass.Location = new System.Drawing.Point(298, 604);
             this.rad_GPotass.Name = "rad_GPotass";
@@ -376,6 +388,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GSugars
             // 
+            this.rad_GSugars.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GSugars.AutoSize = true;
             this.rad_GSugars.Location = new System.Drawing.Point(298, 566);
             this.rad_GSugars.Name = "rad_GSugars";
@@ -388,6 +401,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GCarbs
             // 
+            this.rad_GCarbs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GCarbs.AutoSize = true;
             this.rad_GCarbs.Location = new System.Drawing.Point(298, 521);
             this.rad_GCarbs.Name = "rad_GCarbs";
@@ -400,6 +414,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GFiber
             // 
+            this.rad_GFiber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GFiber.AutoSize = true;
             this.rad_GFiber.Location = new System.Drawing.Point(298, 475);
             this.rad_GFiber.Name = "rad_GFiber";
@@ -412,6 +427,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LPotass
             // 
+            this.rad_LPotass.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LPotass.AutoSize = true;
             this.rad_LPotass.Location = new System.Drawing.Point(425, 604);
             this.rad_LPotass.Name = "rad_LPotass";
@@ -424,6 +440,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LSugars
             // 
+            this.rad_LSugars.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LSugars.AutoSize = true;
             this.rad_LSugars.Location = new System.Drawing.Point(425, 566);
             this.rad_LSugars.Name = "rad_LSugars";
@@ -436,6 +453,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LCarbs
             // 
+            this.rad_LCarbs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LCarbs.AutoSize = true;
             this.rad_LCarbs.Location = new System.Drawing.Point(425, 521);
             this.rad_LCarbs.Name = "rad_LCarbs";
@@ -448,6 +466,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LFiber
             // 
+            this.rad_LFiber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LFiber.AutoSize = true;
             this.rad_LFiber.Location = new System.Drawing.Point(425, 475);
             this.rad_LFiber.Name = "rad_LFiber";
@@ -460,6 +479,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GRating
             // 
+            this.rad_GRating.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GRating.AutoSize = true;
             this.rad_GRating.Location = new System.Drawing.Point(803, 475);
             this.rad_GRating.Name = "rad_GRating";
@@ -472,6 +492,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GCups
             // 
+            this.rad_GCups.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GCups.AutoSize = true;
             this.rad_GCups.Location = new System.Drawing.Point(553, 604);
             this.rad_GCups.Name = "rad_GCups";
@@ -484,6 +505,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GShelf
             // 
+            this.rad_GShelf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GShelf.AutoSize = true;
             this.rad_GShelf.Location = new System.Drawing.Point(553, 521);
             this.rad_GShelf.Name = "rad_GShelf";
@@ -496,6 +518,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GVita
             // 
+            this.rad_GVita.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GVita.AutoSize = true;
             this.rad_GVita.Location = new System.Drawing.Point(553, 475);
             this.rad_GVita.Name = "rad_GVita";
@@ -508,6 +531,7 @@ namespace AndersonE_Assignment2
             // 
             // Rad_LRating
             // 
+            this.Rad_LRating.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Rad_LRating.AutoSize = true;
             this.Rad_LRating.Location = new System.Drawing.Point(809, 521);
             this.Rad_LRating.Name = "Rad_LRating";
@@ -520,6 +544,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LCups
             // 
+            this.rad_LCups.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LCups.AutoSize = true;
             this.rad_LCups.Location = new System.Drawing.Point(680, 604);
             this.rad_LCups.Name = "rad_LCups";
@@ -532,6 +557,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LShelf
             // 
+            this.rad_LShelf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LShelf.AutoSize = true;
             this.rad_LShelf.Location = new System.Drawing.Point(680, 521);
             this.rad_LShelf.Name = "rad_LShelf";
@@ -544,6 +570,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LVita
             // 
+            this.rad_LVita.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LVita.AutoSize = true;
             this.rad_LVita.Location = new System.Drawing.Point(680, 475);
             this.rad_LVita.Name = "rad_LVita";
@@ -556,6 +583,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_GWeight
             // 
+            this.rad_GWeight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_GWeight.AutoSize = true;
             this.rad_GWeight.Location = new System.Drawing.Point(553, 566);
             this.rad_GWeight.Name = "rad_GWeight";
@@ -568,6 +596,7 @@ namespace AndersonE_Assignment2
             // 
             // rad_LWeight
             // 
+            this.rad_LWeight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rad_LWeight.AutoSize = true;
             this.rad_LWeight.Location = new System.Drawing.Point(680, 566);
             this.rad_LWeight.Name = "rad_LWeight";
@@ -580,6 +609,7 @@ namespace AndersonE_Assignment2
             // 
             // Cmb_Mfr
             // 
+            this.Cmb_Mfr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Cmb_Mfr.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Cmb_Mfr.FormattingEnabled = true;
             this.Cmb_Mfr.Items.AddRange(new object[] {
@@ -598,6 +628,7 @@ namespace AndersonE_Assignment2
             // 
             // lbl_Mfr
             // 
+            this.lbl_Mfr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lbl_Mfr.AutoSize = true;
             this.lbl_Mfr.Location = new System.Drawing.Point(956, 479);
             this.lbl_Mfr.Name = "lbl_Mfr";
@@ -605,20 +636,9 @@ namespace AndersonE_Assignment2
             this.lbl_Mfr.TabIndex = 9;
             this.lbl_Mfr.Text = "Manufacturer: ";
             // 
-            // form1BindingSource1
-            // 
-            this.form1BindingSource1.DataSource = typeof(AndersonE_Assignment2.Form1);
-            // 
-            // form1BindingSource
-            // 
-            this.form1BindingSource.DataSource = typeof(AndersonE_Assignment2.Form1);
-            // 
-            // programBindingSource
-            // 
-            this.programBindingSource.DataSource = typeof(AndersonE_Assignment2.Program);
-            // 
             // cmb_Type
             // 
+            this.cmb_Type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cmb_Type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_Type.FormattingEnabled = true;
             this.cmb_Type.Items.AddRange(new object[] {
@@ -632,6 +652,7 @@ namespace AndersonE_Assignment2
             // 
             // lbl_Type
             // 
+            this.lbl_Type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lbl_Type.AutoSize = true;
             this.lbl_Type.Location = new System.Drawing.Point(956, 525);
             this.lbl_Type.Name = "lbl_Type";
@@ -641,6 +662,7 @@ namespace AndersonE_Assignment2
             // 
             // lbl_Min
             // 
+            this.lbl_Min.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lbl_Min.AutoSize = true;
             this.lbl_Min.Location = new System.Drawing.Point(307, 654);
             this.lbl_Min.Name = "lbl_Min";
@@ -650,6 +672,7 @@ namespace AndersonE_Assignment2
             // 
             // lbl_Max
             // 
+            this.lbl_Max.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lbl_Max.AutoSize = true;
             this.lbl_Max.Location = new System.Drawing.Point(456, 654);
             this.lbl_Max.Name = "lbl_Max";
@@ -659,6 +682,7 @@ namespace AndersonE_Assignment2
             // 
             // txt_Min
             // 
+            this.txt_Min.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txt_Min.Location = new System.Drawing.Point(348, 647);
             this.txt_Min.Name = "txt_Min";
             this.txt_Min.Size = new System.Drawing.Size(41, 20);
@@ -667,11 +691,24 @@ namespace AndersonE_Assignment2
             // 
             // txt_Max
             // 
+            this.txt_Max.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txt_Max.Location = new System.Drawing.Point(497, 647);
             this.txt_Max.Name = "txt_Max";
             this.txt_Max.Size = new System.Drawing.Size(38, 20);
             this.txt_Max.TabIndex = 11;
             this.txt_Max.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Max_KeyPress);
+            // 
+            // form1BindingSource1
+            // 
+            this.form1BindingSource1.DataSource = typeof(AndersonE_Assignment2.Form1);
+            // 
+            // form1BindingSource
+            // 
+            this.form1BindingSource.DataSource = typeof(AndersonE_Assignment2.Form1);
+            // 
+            // programBindingSource
+            // 
+            this.programBindingSource.DataSource = typeof(AndersonE_Assignment2.Program);
             // 
             // Form1
             // 
@@ -716,8 +753,9 @@ namespace AndersonE_Assignment2
             this.Controls.Add(this.btn_sirl);
             this.Controls.Add(this.lbl_Title);
             this.Controls.Add(this.Grid_Cereals);
+            this.MinimumSize = new System.Drawing.Size(1438, 734);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Cereal Killer";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Grid_Cereals)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource1)).EndInit();

@@ -51,6 +51,7 @@ namespace AndersonE_Assignment2
             Reset_RadioBtns();
             ZeroOutComboBoxes(); 
             RepopulateCereals(cereals);
+            modCereals = cereals; 
         }
         #endregion
 
